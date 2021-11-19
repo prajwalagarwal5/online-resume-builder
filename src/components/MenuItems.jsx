@@ -79,7 +79,7 @@ function MenuItems({
                         </Typography>
                     </Link>
                 </ListItemText>
-                <ListItemText
+                {/* <ListItemText
                     className={classNames({
                         [classes.menuItem]: !isDrawer,
                     })}
@@ -98,7 +98,7 @@ function MenuItems({
                             {intl.formatMessage({ id: 'source_code' })}
                         </Typography>
                     </a>
-                </ListItemText>
+                </ListItemText> */}
             </ListItem>
         </List>
     );

@@ -177,7 +177,7 @@ const HomePage = () => {
                 >
                     {intl.formatMessage({ id: 'resume_builder_rescue_description' })}
                 </Typography>
-                <Typography
+                {/* <Typography
                     className={classNames(classes.subtitle, classes.disclaimerTitle)}
                     color="textPrimary"
                     variant="h6"
@@ -210,7 +210,7 @@ const HomePage = () => {
                     >
                         {intl.formatMessage({ id: 'source_code' })}
                     </a>
-                </Typography>
+                </Typography> */}
             </div>
         </Layout>
     );

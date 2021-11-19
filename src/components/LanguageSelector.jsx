@@ -39,15 +39,15 @@ const LanguageSelector = ({ currentLocale, onLanguageChange }) => {
             className={classes.selectLanguage}
             disableUnderline
         >
-            <MenuItem value="pt-br">
+            {/* <MenuItem value="pt-br">
                 <IconFlagBR />
-            </MenuItem>
+            </MenuItem> */}
             <MenuItem value="en">
                 <IconFlagUS />
             </MenuItem>
-            <MenuItem value="es">
+            {/* <MenuItem value="es">
                 <IconFlagES />
-            </MenuItem>
+            </MenuItem> */}
         </Select>
     );
 };

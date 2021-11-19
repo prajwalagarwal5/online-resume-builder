@@ -112,12 +112,11 @@ const Layout = ({
                 <Divider
                     className={classes.bottomDivider}
                 />
-                <footer className={classes.footerContainer}>
+                {/* <footer className={classes.footerContainer}>
                     <Typography
                         color="textPrimary"
                         variant="body1"
                     >
-                        {/* {new Date().getFullYear()} */}
                         {intl.formatMessage({ id: 'built_with' })}
                         <a
                             href="https://www.gatsbyjs.com/"
@@ -129,7 +128,7 @@ const Layout = ({
                         {' | '}
                         <Link to="/cookie-policy">{intl.formatMessage({ id: 'cookie_law.title' })}</Link>
                     </Typography>
-                </footer>
+                </footer> */}
             </Container>
             <Snackbar
                 open={isShowingSnackbar}
